@@ -18,8 +18,8 @@ Use the Mapbox api to implement a google maps clone that allows to input a start
 
 ## Screenshots
 
-![Example screenshot](./images/screenshot.png)
-[Demo]()
+![Screenshot](https://user-images.githubusercontent.com/57517804/118470105-f61bca00-b738-11eb-826b-b9085ddced58.png)
+
 
 ## Technologies
 
