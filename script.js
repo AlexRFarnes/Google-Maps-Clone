@@ -1,5 +1,4 @@
-const MAPBOX_ACCESS_TOKEN =
-  'pk.eyJ1IjoiYWxleHJmYXJuZXMiLCJhIjoiY2tvc2J1bHFkMDAycjJ2cDd4dTc0M3h1ZCJ9.OQ-P_BwRgtaXCIoPTXxzeQ';
+const MAPBOX_ACCESS_TOKEN = '';
 
 navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
   enableHighAccuracy: true,
@@ -24,7 +23,7 @@ function setupMap(centerPosition) {
 
   const navigationControls = new mapboxgl.NavigationControl();
   map.addControl(navigationControls, 'top-right');
-  
+
   const directionControls = new MapboxDirections({
     accessToken: MAPBOX_ACCESS_TOKEN,
   });
